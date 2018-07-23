@@ -6,7 +6,7 @@ This is an awesome configuration to customise your linux terminal and give it so
 the power GITHUB USERS because it add the git command complition feature along with a dynamic terminal prompt which shows you 
 in which branch of the repository you are currently in.
 
-##Instructions to use-
+## Instructions to use-
 
 1) Download shubham-terminal-configuration and put it in your home folder
 
