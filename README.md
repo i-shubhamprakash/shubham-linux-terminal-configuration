@@ -14,7 +14,15 @@ in which branch of the repository you are currently in.
 
 3) Make sure you have enabled "show hidden files" in your file explorer setting.
  
-4) Open the folder .shubham-terminal-configuration and Copy the content of bash_profile to .bashrc in the home folder (If 
+4) FOR LINUX:
+Open the folder .shubham-terminal-configuration and Copy the content of bash_profile to .bashrc in the home 
+folder (If 
 .bashrc is not there in your home folder then create it manually)
+ 
+
+FOR MAC:
+Move the bash_profile file to your home directory and name it .bash_profile (there's a dot at the front, now!);
+If you already have a .bash_profile file in your home directory, transfer the content from the downloaded bash_profile to 
+your existing .bash_profile
 
 5) Now open the terminal and you will have a nice looking interface.   
