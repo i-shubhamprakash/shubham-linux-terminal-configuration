@@ -8,6 +8,16 @@ in which branch of the repository you are currently in.
 
 ## Instructions to use-
 
+### 1. Auto install
+
+1) Download shubham-terminal-configuration and put it in your home folder
+
+2) Execute ```Run-Setup.sh``` by typing ```./Run-Setup.sh``` in your terminal.
+
+3) Follow instructions and give required information asked during the setup process.
+
+### 2. Manual install
+
 1) Download shubham-terminal-configuration and put it in your home folder
 
 2) Hide shubham-terminal-configuration by putting a "." at the begining of the folder name.
