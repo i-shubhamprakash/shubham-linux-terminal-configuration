@@ -36,3 +36,11 @@ If you already have a .bash_profile file in your home directory, transfer the co
 your existing .bash_profile
 
 5) Now open the terminal and you will have a nice looking interface.   
+
+## Author
+
+Shubham Prakash
+
+(shubham.prakash2308@gmail.com)
+
+LinkedIn: https://www.linkedin.com/in/ishubhamprakash/
