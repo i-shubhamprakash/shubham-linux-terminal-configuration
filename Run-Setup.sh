@@ -1,12 +1,10 @@
 #!/bin/bash
 
-echo "Starting terminal setup..."
+printf "\nStarting terminal setup...\n"
 
 sleep 2
 
-echo 
-echo "STEP 1: Initialising git setup..."
-echo 
+printf "\nSTEP 1: Initialising git setup...\n\n"
 
 sleep 2
 
@@ -14,9 +12,7 @@ read -p 'Enter your GitHub user name: ' userName
 
 read -p 'Enter you Github Email Id: ' emailId
 
-sleep 2
-echo 
-echo "Setting up git configuration..."
+printf "\n\nSetting up git configuration..."
 
 # sets up Git with your name
 git config --global user.name "$userName"
@@ -27,24 +23,16 @@ git config --global user.email "$emailId"
 # makes sure that Git output is colored
 git config --global color.ui auto
 
-sleep 2
+printf "\n\nGit config setup complete... current setting:\n\n"
 
-echo 
-echo "Git config setup complete... current setting:"
-
-echo 
 # displays new git configuration
 git config --list
 
 sleep 2
 
-echo 
-echo "STEP 2: Initialising terminal setting..."
+printf "\n\nSTEP 2: Initialising terminal setting..."
 
-sleep 2
-
-echo 
-echo "Copying new setting to .bashrc ..."
+printf "\n\nCopying new setting to .bashrc ..."
 
 cp -r shubham-terminal-config ~/
 
@@ -53,26 +41,24 @@ mv ~/shubham-terminal-config ~/.shubham-terminal-config
 cat to-bashrc.txt >> ~/.bashrc
 
 sleep 2
-echo 
-echo "Terminal config complete..."
+
+printf "\n\nTerminal config complete..."
 
 sleep 2
-echo 
-echo "STEP 3: Add new alias..."
+
+printf "\n\nSTEP 3: Add new alias..."
 
 sleep 2
-echo 
-echo "alias ll='ls -alt'" >>  ~/.bashrc
-echo 
-echo "Enter path to your local GitHub repository directory: "
+
+printf "\n\nalias ll='ls -alt'" >>  ~/.bashrc
+
+printf "\n\nEnter path to your local GitHub repository directory: "
 
 read gitPath
-echo 
-echo "alias github='cd "$gitPath"' " >>  ~/.bashrc
+
+printf "\n\nalias github='cd "$gitPath"' " >>  ~/.bashrc
 
 sleep 2
-echo 
-echo 
-echo "SETUP SUCCESSFULL..."
-echo 
+printf "\n\nSETUP SUCCESSFULL...\n\n"
+
 
