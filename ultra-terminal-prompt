@@ -114,7 +114,7 @@ function __setprompt
 		fi
 		PS1+="\[${DARKGRAY}\])\[${NOCOLOR}\]\n"
 	else
-		PS1="\n"
+		PS1=""
 	fi
 
 	# Date
